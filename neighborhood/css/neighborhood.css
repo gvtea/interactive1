@@ -1,6 +1,7 @@
 
 
-{text-decoration: none;
+{
+  text-decoration: none;
 
 }
 
@@ -19,10 +20,32 @@ body {
         margin-right: auto;
 
         text-align:center;
-}
-
-
+      }
 
 p { background-color: beige;
 
+}
+
+/* unvisited link */
+a: link {
+
+  color: green;
+  text-decoration: none;
+
+  }
+
+/* visited link */
+a: visited {
+  color: pink;
+  text-decoration: none;
+
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: beige;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
