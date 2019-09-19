@@ -19,7 +19,7 @@ p {
 .two-column {
               display: float;
               width: 50%;
-              transform: rotate(180deg);
+              transform: rotate(90deg);
             }
 
 a:link, a:visited {
@@ -31,3 +31,9 @@ a:link, a:visited {
           display: inline-block;
           border-radius: 10px;
                   }
+
+a:hover {
+          text-decoration-color:
+
+
+}
