@@ -17,9 +17,8 @@ p {
   }
 
 .two-column {
-              display: float;
+              display: flex;
               width: 50%;
-              transform: rotate(90deg);
             }
 
 a:link, a:visited {
