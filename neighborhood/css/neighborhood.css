@@ -18,22 +18,9 @@ p {
 }
 
 .two-column {
-              display: flex;
-              width: 100%
-      
-}
-/* unvisited link */
-a: link {
-
-  color: green;
-  text-decoration: none;
-
-  }
-
-/* visited link */
-a: visited {
-  color: pink;
-  text-decoration: none;
+              display: float;
+              width: 100%;
+              transform: rotate(90deg);
 
 }
 
@@ -44,4 +31,5 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 10px;
 }
