@@ -14,22 +14,20 @@ body {
 
 p {
     background-color: beige;
-
-}
+  }
 
 .two-column {
               display: float;
               width: 50%;
               transform: rotate(180deg);
-
-}
+            }
 
 a:link, a:visited {
-  background-color: #E8B491;
-  color: beige;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 10px;
-}
+          background-color: #E8B491;
+          color: beige;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 10px;
+                  }
