@@ -1,0 +1,12 @@
+
+body {
+        font-family: 'Roboto Slab', serif;
+        background-color: gree;
+        color: brown;
+        width:700px;
+        padding:50px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
