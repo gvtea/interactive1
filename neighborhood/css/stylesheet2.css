@@ -1,7 +1,7 @@
 
 body {
-        font-family: 'Roboto Slab', serif;
-        background-color: gree;
+        font-family: 'Karla', sans-serif;
+        background-color: green;
         color: brown;
         width:700px;
         padding:50px;
@@ -13,4 +13,18 @@ body {
 
   p   {
           background-color: ivory;
+        }
+
+  a:link, a:visited {
+                  background-color: #E8B491;
+                  color: beige;
+                  padding: 10px 20px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  border-radius: 10px;
+                          }
+
+        a:hover {
+                  text-decoration-color: #E7B471
         }
