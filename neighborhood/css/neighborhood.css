@@ -3,7 +3,7 @@
 
 body {
         font-family: 'Roboto Slab', serif;
-        background-color: gree;
+        background-color: beige;
         color: brown;
         width:700px;
         padding:50px;
@@ -14,7 +14,7 @@ body {
       }
 
 p {
-    background-color: beige;
+    background-color: ivory;
   }
 
 .two-column {
