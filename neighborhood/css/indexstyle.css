@@ -1,10 +1,10 @@
 body {
-        background-color:
-        display: flex;
-        inline:
-
+        background-color: #
+        color: #
+        width: auto;
+        padding:inherit;
 }
 
-p {
-      
+p {  background-color: #
+    
 }
