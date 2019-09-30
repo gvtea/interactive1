@@ -13,13 +13,12 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background: #E4197A;
+        background-image:
+          linear-gradient(to right, #FFD83E, #F9A629, #F26E39, #B55065, #66378D)
 }
 
 /* shapes */
 
-#square {
-        width: 500px;
-        height: 150px;
-        background: #4F479D;
+#circle {
+
 }
