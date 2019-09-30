@@ -19,6 +19,23 @@ body {
 
 /* shapes */
 
+#rect {
+        position: absolute;
+        padding-left: 300px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+}
+
+#rect2 {
+        position: absolute;
+        padding-left: 310px;
+        widrh: 100px;
+        height: 100px;
+        border-radius: 50px;
+
+}
+
 .emoji {
         position: absolute;
         padding-left: 10px;
