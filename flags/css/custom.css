@@ -22,7 +22,7 @@ body {
 #rect {
         position: absolute;
         padding-left: 300px;
-        width: 100px;
+        width: 200px;
         height: 100px;
         border-radius: 50px;
 }
