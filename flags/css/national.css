@@ -14,31 +14,23 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background: navy;
+        background: red;
 }
 
 /* shapes */
-#circle {
-        width: 150px;
-        height: 150px;
-        background: white;
-        border-radius: 75px;
-        position: center;
-
-      }
 
 #square {
         width: 500px;
         height: 150px;
-        background: red;
-
-
-  /* position the circle in the center of the flag */
-    position: absolute;
-    top: 0px;
-    left: 0px;
-        }
-
-#star {
-        width:
+        background: navy;
 }
+
+  #circle {
+            width: 200px;
+            height: 200px;
+            background: white;
+            border-radius: 100px;
+            position: absolute;
+            top: 75px;
+            left: 175px;
+           }
