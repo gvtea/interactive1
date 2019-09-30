@@ -22,5 +22,6 @@ body {
 .emoji {
         position: absolute;
         padding-left: 10px;
-        top: 10px;
+        padding-bottom: 10px;
+        top: 0px;
 }
