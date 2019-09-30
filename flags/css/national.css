@@ -37,9 +37,9 @@ body {
 
   .sun {
         position: absolute;
-        padding-left: 50px;
-        padding-right: 120px;
-        padding-bottom: 90px;
-        top: 60px;
-        left: 80px;
+        padding-left: 125px;
+        padding-right: 150px;
+        padding-bottom: 120px;
+        top: 35px;
+        left: 0px;
   }

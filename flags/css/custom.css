@@ -1,0 +1,25 @@
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: #E4197A;
+}
+
+/* shapes */
+
+#square {
+        width: 500px;
+        height: 150px;
+        background: #4F479D;
+}
