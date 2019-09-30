@@ -36,6 +36,10 @@ body {
            }
 
   .sun {
-        padding: 120px 120px;
-        white-space: nowrap;
+        position: absolute;
+        padding-left: 50px;
+        padding-right: 120px;
+        padding-bottom: 90px;
+        top: 60px;
+        left: 80px;
   }
