@@ -18,7 +18,7 @@ body {
 }
 
 img {
-        z-index: 1;
+        z-index: 3;
         position: relative;
         padding-left: 110px;
         padding-right: 95px;
@@ -28,7 +28,7 @@ img {
         top: -90px;
         left: 12px;
         animation: spin;
-        animation-duration: 5000ms;
+        animation-duration: 8000ms;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
   }
@@ -49,7 +49,7 @@ img {
             position: absolute;
             top: 25px;
             left: 125px;
-           }
+          }
 
 
   @keyframes spin {
@@ -60,4 +60,3 @@ img {
     to {
       transform:rotate(360deg);
     }
-}
