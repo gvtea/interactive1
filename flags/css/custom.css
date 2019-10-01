@@ -26,12 +26,6 @@ body {
         top: 0px;
 }
 
-.emoji {
-      animation: pulse
-      animation-duration: 5000ms;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in-out;
-
 }
 
 @keyframes pulse {
