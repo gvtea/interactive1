@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
   background: linear-gradient(172deg, #ffa47e, #ffabbe, #ffc896, #ffefb4);
 background-size: 800% 800%;
@@ -11,24 +12,28 @@ background-size: 800% 800%;
 -webkit-animation: AnimationName 30s ease infinite;
 -moz-animation: AnimationName 30s ease infinite;
 animation: AnimationName 30s ease infinite;
+      }
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 86%}
     50%{background-position:100% 15%}
     100%{background-position:0% 86%}
-}
+                                  }
+
 @-moz-keyframes AnimationName {
     0%{background-position:0% 86%}
     50%{background-position:100% 15%}
     100%{background-position:0% 86%}
-}
+                              }
+
 @keyframes AnimationName {
     0%{background-position:0% 86%}
     50%{background-position:100% 15%}
     100%{background-position:0% 86%}
-}
+                         }
 
 }
+
 #desktop {
     display: inline;
     color: white;
@@ -76,7 +81,7 @@ animation: AnimationName 30s ease infinite;
     }
 }
 /* mobile */
-@media (max-width: 670px) {
+@media mobile (max-width: 670px) {
     body {
         background: white;
     }
@@ -91,22 +96,7 @@ animation: AnimationName 30s ease infinite;
     }
 }
 /* print */
-@media tablet {
-    body {
-        background: white;
-    }
-    #tablet {
-        display: inline;
-        color: ivory;
-    }
-    #desktop,
-    #tablet,
-    #mobile {
-        display: none;
-    }
-}
-
-@media print {
+@media print (max-width: 670px){
     body {
         background: white;
     }
@@ -119,3 +109,4 @@ animation: AnimationName 30s ease infinite;
     #mobile {
         display: none;
     }
+}
