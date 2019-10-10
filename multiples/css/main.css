@@ -27,7 +27,6 @@ animation: AnimationName 30s ease infinite;
     50%{background-position:100% 15%}
     100%{background-position:0% 86%}
 }
-}
 
 }
 #desktop {
@@ -39,10 +38,32 @@ animation: AnimationName 30s ease infinite;
 #print {
     display: none;
 }
+
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: #e7867d;
+      background: linear-gradient(270deg, #981ca7, #ff6565, #ffd065);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
     }
     #tablet {
         display: inline;
@@ -70,6 +91,21 @@ animation: AnimationName 30s ease infinite;
     }
 }
 /* print */
+@media tablet {
+    body {
+        background: white;
+    }
+    #tablet {
+        display: inline;
+        color: ivory;
+    }
+    #desktop,
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
+
 @media print {
     body {
         background: white;
@@ -83,4 +119,3 @@ animation: AnimationName 30s ease infinite;
     #mobile {
         display: none;
     }
-}
