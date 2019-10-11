@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* desktop */
 body {
   background: linear-gradient(172deg, #ffa47e, #ffabbe, #ffc896, #ffefb4);
 background-size: 800% 800%;
@@ -38,11 +39,14 @@ animation: AnimationName 30s ease infinite;
     display: inline;
     color: white;
 }
+
 #tablet,
 #mobile,
-#print {
+#print,
+#print2
+    {
     display: none;
-}
+    }
 
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
@@ -69,17 +73,18 @@ animation: AnimationName 30s ease infinite;
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-    }
+}
     #tablet {
         display: inline;
         color: ivory;
     }
     #desktop,
     #mobile,
-    #print {
+    #print,
+    #print2 {
         display: none;
     }
-}
+
 /* mobile */
 @media mobile (max-width: 670px) {
     body {
@@ -91,12 +96,15 @@ animation: AnimationName 30s ease infinite;
     }
     #desktop,
     #tablet,
-    #print {
+    #mobile,
+    #print,
+    #print2 {
         display: none;
     }
 }
 /* print */
-@media print (max-width: 670px){
+@media print (max-width: 670px)
+{
     body {
         background: white;
     }
@@ -106,7 +114,29 @@ animation: AnimationName 30s ease infinite;
     }
     #desktop,
     #tablet,
-    #mobile {
+    #print,
+    #print2 {
+        display: none;
+    }
+}
+
+@media print2 (max-width: 480px)
+{
+    body {
+        background: white;
+          }
+
+    #print2 {
+        display: inline;
+        color: ivory;
+            }
+
+    #desktop,
+    #tablet,
+    #print,
+    #print2
+
+    {
         display: none;
     }
 }
