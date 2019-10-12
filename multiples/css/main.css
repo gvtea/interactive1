@@ -42,8 +42,7 @@ animation: AnimationName 30s ease infinite;
 
 #tablet,
 #mobile,
-#print,
-#print2
+#print
     {
     display: none;
     }
@@ -53,15 +52,15 @@ animation: AnimationName 30s ease infinite;
     body {
       background: pink;
     }
-    
+
     #tablet {
         display: inline;
         color: ivory;
     }
     #desktop,
     #mobile,
-    #print,
-    #print2 {
+    #print
+     {
         display: none;
     }
 
@@ -77,13 +76,13 @@ animation: AnimationName 30s ease infinite;
     #desktop,
     #tablet,
     #mobile,
-    #print,
-    #print2 {
+    #print
+  {
         display: none;
     }
 }
 /* print */
-@media print (max-width: 570px)
+@media print (max-width: 670px)
 {
     body {
         background: white;
@@ -94,8 +93,8 @@ animation: AnimationName 30s ease infinite;
     }
     #desktop,
     #tablet,
-    #print,
-    #print2 {
+    #print
+     {
         display: none;
     }
 }
