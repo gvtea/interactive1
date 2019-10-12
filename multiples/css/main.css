@@ -103,7 +103,7 @@ animation: AnimationName 30s ease infinite;
     }
 }
 /* print */
-@media print (max-width: 670px)
+@media print (max-width: 570px)
 {
     body {
         background: white;
