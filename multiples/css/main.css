@@ -40,6 +40,10 @@ animation: AnimationName 30s ease infinite;
     color: white;
 }
 
+img {width:100%;
+height:50%;
+margin-top:0px}
+
 #tablet,
 #mobile,
 #print
@@ -75,7 +79,6 @@ animation: AnimationName 30s ease infinite;
     }
     #desktop,
     #tablet,
-    #mobile,
     #print
   {
         display: none;
@@ -88,12 +91,12 @@ animation: AnimationName 30s ease infinite;
         background: white;
     }
     #print {
-        display: inline;
+        display: block;
         color: ivory;
     }
     #desktop,
     #tablet,
-    #print
+    #mobile
      {
         display: none;
     }
