@@ -46,17 +46,21 @@ li {
 
 /* unvisited link */
 a:link {
-  color: darkred;
+  color: brown;
 }
 
 /* visited link */
 a:visited {
-  color: darkgreen;
+  color: darkred;
 }
 
 /* mouse over link */
 a:hover {
   color: lightpink;
+}
+
+img {
+clip-path: circle(50% at 50% 50%);
 }
 
 
