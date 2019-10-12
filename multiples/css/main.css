@@ -15,18 +15,6 @@ background-size: 800% 800%;
 animation: AnimationName 30s ease infinite;
       }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 86%}
-    50%{background-position:100% 15%}
-    100%{background-position:0% 86%}
-                                  }
-
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 86%}
-    50%{background-position:100% 15%}
-    100%{background-position:0% 86%}
-                              }
-
 @keyframes AnimationName {
     0%{background-position:0% 86%}
     50%{background-position:100% 15%}
@@ -50,6 +38,8 @@ margin-top:0px}
 #print2
     {
     display: none;
+    position: relative;
+
     }
 
 /* tablet */
@@ -68,6 +58,7 @@ margin-top:0px}
     #print2
      {
         display: none;
+        position: relative;
     }
 
 /* mobile */
@@ -85,6 +76,7 @@ margin-top:0px}
     #print2
   {
         display: none;
+        position: relative;
     }
 }
 /* print */
@@ -102,6 +94,7 @@ margin-top:0px}
     #print2
      {
         display: none;
+        position: relative;
     }
 
 /* print 2*/
