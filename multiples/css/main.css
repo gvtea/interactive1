@@ -119,24 +119,3 @@ animation: AnimationName 30s ease infinite;
         display: none;
     }
 }
-
-@media print2 (max-width: 480px)
-{
-    body {
-        background: white;
-          }
-
-    #print2 {
-        display: inline;
-        color: ivory;
-            }
-
-    #desktop,
-    #tablet,
-    #print,
-    #print2
-
-    {
-        display: none;
-    }
-}
