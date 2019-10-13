@@ -5,8 +5,10 @@ body {
   font-size: 22px;
   text-align: center;
 
+
 background: linear-gradient(256deg, #faa0b9, #f0b495, #fed1be, #fae9ac, #fcf0e2);
 background-size: 1000% 1000%;
+}
 
 {
 animation: AnimationName 12s ease infinite;
@@ -30,19 +32,20 @@ h1, h3 {
 
 p {
 
-    font-family: 'Fritz', sans-serif;
-    font-weight: 400;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: normal;
     font-style: normal;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 li {
 
-  font-family: 'Fritz', sans-serif;
-  font-weight: 400;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: normal;
   font-style: normal;
-  line-height: 1;
+  line-height: 1.5;
 }
+
 
 /* unvisited link */
 a:link {
@@ -56,12 +59,35 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: lightpink;
+  color: hotpink;
 }
 
 img {
-clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
 }
+
+<style type="text/css">
+div.ui-menu li {
+    list-style:none;
+    background-image:none;
+    background-repeat:none;
+    background-position:0;
+}
+ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+li
+{
+    background-image:url(sqpurple.gif);
+    background-repeat:no-repeat;
+    background-position:0px 5px;
+    padding-left:14px;
+}
+</style>
 
 
 /* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/food/foo-3/foo262.ani), url(http://cur.cursors-4u.net/food/foo-3/foo262.png),
