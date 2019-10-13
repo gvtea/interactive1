@@ -6,13 +6,12 @@
 }
 
 /* desktop */
+@media (max-width: 1224px) {
 body {
   background: linear-gradient(172deg, #ffa47e, #ffabbe, #ffc896, #ffefb4);
 background-size: 800% 800%;
 
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;
+animation: AnimationName 10s ease infinite;
       }
 
 @keyframes AnimationName {
@@ -24,41 +23,46 @@ animation: AnimationName 30s ease infinite;
 }
 
 #desktop {
-    display: inline;
-    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
 }
 
-img {width:100%;
+/* img {width:100%;
 height:50%;
-margin-top:0px}
+margin-top:0px} */
 
 #tablet,
 #mobile,
-#print,
-#print2
+#print
     {
     display: none;
-    position: relative;
 
     }
 
 /* tablet */
-@media (min-width: 670px) and (max-width: 1024px) {
+@media (max-width: 880px) {
     body {
       background: pink;
     }
 
     #tablet {
-        display: inline;
-        color: ivory;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
     }
+
     #desktop,
     #mobile,
-    #print,
-    #print2
+    #print
      {
         display: none;
-        position: relative;
     }
 
 /* mobile */
@@ -66,51 +70,39 @@ margin-top:0px}
     body {
         background: white;
     }
+
     #mobile {
-        display: inline;
-        color: black;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
     }
+
     #desktop,
     #tablet,
     #print
-    #print2
   {
         display: none;
-        position: relative;
     }
 }
 /* print */
-@media print (min-width: 670px) {
+@media print (min-width: 600px) {
     body {
         background: white;
     }
     #print {
-        display: block;
-        color: ivory;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
     }
     #desktop,
     #tablet,
-    #mobile,
-    #print2
+    #mobile
      {
         display: none;
-        position: relative;
     }
-
-/* print 2*/
-@media print2 (max-width: 670px) {
-      body { background: white;
-      }
-      #print2 {
-              display: block;
-              color: ivory;
-      }
-      #desktop,
-      #tablet,
-      #mobile,
-      #print2
-      {
-        display: none;
-      }
-
-}
