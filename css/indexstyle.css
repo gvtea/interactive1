@@ -13,20 +13,9 @@ h1, h3 {
 
   font-family: 'Philosopher', sans-serif;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
     line-height: 1;
 
-
-}
-
-h3 {
-  margin-top: 23px;
-  display: block;
-  font-size: 25px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 
 }
 
@@ -88,7 +77,7 @@ li
     background-position:0px 5px;
     padding-left:14px;
 }
-</style>
+
 
 
 /* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/food/foo-3/foo262.ani), url(http://cur.cursors-4u.net/food/foo-3/foo262.png),
