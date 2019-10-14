@@ -6,7 +6,7 @@
 }
 
 /* desktop */
-@media (max-width: 1224px) {
+@media (max-width: 1024px) {
 
 body {
   background: linear-gradient(172deg, #ffa47e, #ffabbe, #ffc896, #ffefb4);
@@ -21,26 +21,25 @@ animation: AnimationName 10s ease infinite;
     100%{background-position:0% 86%}
                          }
 
-}
-
 #desktop {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-}
+    /* width: 100vw;
+    height: 100vh; */
+          }
 
 #tablet,
 #mobile,
 #print
     {
-    display: none;
-
+        display: none;
     }
+}
 
 /* tablet */
 @media (max-width: 880px) {
+
     body {
       background: pink;
     }
@@ -49,8 +48,8 @@ animation: AnimationName 10s ease infinite;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      width: 100vw;
-      height: 100vh;
+      /* width: 100vw;
+      height: 100vh; */
     }
 
     #desktop,
@@ -65,15 +64,15 @@ animation: AnimationName 10s ease infinite;
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: white;
+        background: pink;
     }
 
     #mobile {
       display: flex;
       justify-content: center;
       flex-direction: column;
-      width: 100vw;
-      height: 100vh;
+      /* width: 100vw;
+      height: 100vh; */
     }
 
     #desktop,
@@ -85,16 +84,16 @@ animation: AnimationName 10s ease infinite;
 }
 
 /* print */
-@media (min-width: 600px) {
+@media (min-width: 670px) {
     body {
-        background: white;
+        background: ivory;
     }
     #print {
       display: flex;
       justify-content: center;
       flex-direction: column;
-      width: 100vw;
-      height: 100vh;
+      /* width: 100vw;
+      height: 100vh; */
     }
     #desktop,
     #tablet,
