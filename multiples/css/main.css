@@ -6,7 +6,7 @@
 }
 
 /* desktop */
-@media (max-width: 1024px) {
+@media {
 
 body {
   background: linear-gradient(172deg, #ffa47e, #ffabbe, #ffc896, #ffefb4);
@@ -22,7 +22,7 @@ animation: gradient 10s ease infinite;
                          }
 
 #desktop {
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: column;
     /* width: 100vw;
@@ -38,7 +38,7 @@ animation: gradient 10s ease infinite;
 }
 
 /* tablet */
-@media (max-width: 880px) {
+@media (min-width: 880px) and (max-width: 1024px) {
 
     body {
       background: pink;
@@ -61,7 +61,7 @@ animation: gradient 10s ease infinite;
 }
 
 /* mobile */
-@media (max-width: 670px) {
+@media (min-width: 600px) and (max-width: 880px) {
     body {
         background: pink;
     }
@@ -83,7 +83,7 @@ animation: gradient 10s ease infinite;
 }
 
 /* print */
-@media print (min-width: 670px) {
+@media print (max-width: 600px) {
     body {
         background: ivory;
     }
