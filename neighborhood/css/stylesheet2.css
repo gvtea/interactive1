@@ -18,6 +18,15 @@ h2  {  font-family: 'Trebuchet MS', sans-serif;
       line-height: 1.5;
     }
 
+
+p {
+  font-family: 'Trebuchet MS', sans-serif;
+        background-color: beige;
+        color: olive;
+        font-size: 18px;
+        line-height: 1.5;
+}
+
 .two-column {
               display: flex;
               width: 50%;
@@ -72,3 +81,6 @@ a:link, a:visited {
 
                   /* Change the background color of the dropdown button when the dropdown content is shown */
                   .dropdown:hover .dropbtn {background-color: olive;}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat985.cur), auto !important;}
+/* End http://www.cursors-4u.com */
