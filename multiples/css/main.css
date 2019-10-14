@@ -101,6 +101,7 @@ animation: gradient 10s ease infinite;
 
     #desktop,
     #tablet,
+    #mobile,
     #print,
   {
         display: none;
@@ -121,7 +122,9 @@ animation: gradient 10s ease infinite;
     }
     #desktop,
     #tablet,
-    #mobile
+    #mobile,
+    #print2
+
      {
         display: none;
     }
