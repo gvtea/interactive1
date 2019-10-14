@@ -40,7 +40,9 @@ li {
 a:link {
   color: olive;
 }
-
+a:visited {
+  color: olive;
+}
 /* mouse over link */
 a:hover {
   color: lightpink;

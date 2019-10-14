@@ -65,7 +65,7 @@ animation: gradient 10s ease infinite;
 /* mobile */
 @media (min-width: 600px) and (max-width: 880px) {
     body {
-        background: pink;
+        background: lightyellow;
     }
 
     #mobile {
@@ -88,7 +88,7 @@ animation: gradient 10s ease infinite;
 /* print2 */
 @media (min-width: 600px) and (max-width: 880px) {
     body {
-        background: pink;
+        background: lightyellow;
     }
 
     #print2 {
