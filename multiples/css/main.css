@@ -31,7 +31,8 @@ animation: gradient 10s ease infinite;
 
 #tablet,
 #mobile,
-#print
+#print,
+#print2
     {
         display: none;
     }
@@ -54,7 +55,8 @@ animation: gradient 10s ease infinite;
 
     #desktop,
     #mobile,
-    #print
+    #print,
+    #print2
      {
         display: none;
     }
@@ -77,6 +79,29 @@ animation: gradient 10s ease infinite;
     #desktop,
     #tablet,
     #print
+    #print2
+  {
+        display: none;
+    }
+}
+
+/* print2 */
+@media (min-width: 600px) and (max-width: 880px) {
+    body {
+        background: pink;
+    }
+
+    #print2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      /* width: 100vw;
+      height: 100vh; */
+    }
+
+    #desktop,
+    #tablet,
+    #print,
   {
         display: none;
     }
