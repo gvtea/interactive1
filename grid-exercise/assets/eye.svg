@@ -3,13 +3,19 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 216 216" style="enable-background:new 0 0 216 216;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#08095B;}
-	.st1{fill:none;stroke:#08085B;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st3{font-family:'CovikSans-Regular';}
-	.st4{font-size:44.1101px;}
+	.st0{fill:#FFFFFF;stroke:#08085B;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{font-family:'CovikSans-Regular';}
+	.st3{font-size:44.1101px;}
+	.st4{fill:#08095B;}
+	.st5{fill:#FFFFFF;}
 </style>
-<circle class="st0" cx="105" cy="101" r="28"/>
-<path class="st1" d="M44,101c0,0,24.63-27,60.21-28s59.29,28,59.29,28s-24.63,28-59.29,28S44,101,44,101z"/>
-<text transform="matrix(1 0 0 1 84.8003 111.9287)" class="st2 st3 st4">✧</text>
+<g>
+	<path class="st0" d="M48.2,98.5c0,0,24.6-27,60.2-28s59.3,28,59.3,28s-24.6,28-59.3,28S48.2,98.5,48.2,98.5z"/>
+	<text transform="matrix(1 0 0 1 89.0291 110.9653)" class="st1 st2 st3">✧</text>
+	<g>
+		<circle class="st4" cx="109" cy="98.5" r="28"/>
+		<text transform="matrix(1 0 0 1 89.0289 110.9654)" class="st5 st2 st3">✧</text>
+	</g>
+</g>
 </svg>
