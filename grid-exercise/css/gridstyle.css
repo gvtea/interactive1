@@ -97,8 +97,16 @@ h2 {
     cursor: pointer;
 }
 
-img { background-repeat: no-repeat;
-}
+#wrapper .text {
+   position: relative;
+   bottom:10px;
+   left:0px;
+   visibility: hidden;
+   }
+
+   #wrapper:hover .text {
+   visibility: visible;
+   }
 
 /*
 .grid-item {
