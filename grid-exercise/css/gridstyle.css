@@ -108,32 +108,38 @@ h2 {
    visibility: visible;
    }
 
-   a.transparent {
-   width: 200px;
-   height: 200px;
-   background: url("whatever.jpg");
-   display: block;
-   text-decoration: none;
+   #side-menu {
+     background-color: black;
+     color: white;
+     width: 80px;
+     padding: 20px;
+     list-style: none;
+     transition: ease-in-out all .4s;
+     display: table;
    }
 
-   a.transparent span span{
-   color:transparent;
+   li {
+     width: 50%;
+     height: 100%;
+     display: table-cell;
    }
-   a:hover.transparent span{
-   display:block;
-   width: 200px;
-   height: 200px;
-   background:rgba(255,255,255,0.5);
+
+   .side-menu__label {
+     float: left;
+     width: 500px;
+     opacity: 0;
+     position: absolute;
+     transition: ease-in-out all .4s;
    }
-   a:hover.transparent span span{
-   display:block;
-   padding-top: 33%;
-   text-align: center;
-   font-size: 1.5em;
-   line-height: 1em;
-   background:transparent;
-   color: #000000;
+
+   #side-menu:hover {
+     width: 400px;
    }
+
+   #side-menu:hover .side-menu__label {
+     opacity: 1;
+   }
+
 
 /*
 .grid-item {
