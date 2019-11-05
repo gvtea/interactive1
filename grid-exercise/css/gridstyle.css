@@ -97,6 +97,8 @@ h2 {
     cursor: pointer;
 }
 
+img { background-repeat: no-repeat;
+}
 
 /*
 .grid-item {
