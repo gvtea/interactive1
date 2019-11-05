@@ -99,13 +99,40 @@ h2 {
 
 #wrapper .text {
    position: relative;
-   bottom:10px;
+   bottom:30px;
    left:0px;
    visibility: hidden;
    }
 
    #wrapper:hover .text {
    visibility: visible;
+   }
+
+   a.transparent {
+   width: 200px;
+   height: 200px;
+   background: url("whatever.jpg");
+   display: block;
+   text-decoration: none;
+   }
+
+   a.transparent span span{
+   color:transparent;
+   }
+   a:hover.transparent span{
+   display:block;
+   width: 200px;
+   height: 200px;
+   background:rgba(255,255,255,0.5);
+   }
+   a:hover.transparent span span{
+   display:block;
+   padding-top: 33%;
+   text-align: center;
+   font-size: 1.5em;
+   line-height: 1em;
+   background:transparent;
+   color: #000000;
    }
 
 /*
