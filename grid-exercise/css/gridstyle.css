@@ -3,6 +3,8 @@ body {
   font-family: Lores-12, sans-serif;
   font-weight: 100;
   font-style: normal;
+  font-size-adjust: auto;
+  line-height: auto;
   background-color: ivory;
 }
 
@@ -103,8 +105,11 @@ h2 {
     cursor: pointer;
 }
 
+/* popup under descriptions*/
 #some-element {
-  border: 5px solid #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #FFCCA7;
   display: none;
   font-size: 12px;
   margin-top: 10px;
@@ -114,6 +119,7 @@ h2 {
 
 #some-div:hover #some-element {
   display: block;
+  width: 100px;
 }
 
 /* hover over img */
@@ -131,6 +137,7 @@ h2 {
 /* below layer 1 */
    #side-menu {
      background-color: #AFE3DD;
+     border-radius: 10px;
      color: white;
      width: 80px;
      padding: 20px;
@@ -164,12 +171,14 @@ h2 {
 /* below layer 2 */
    #side-menu2 {
      background-color: #FFCCA7;
+     border-radius: 10px;
      color: white;
      width: 80px;
+     height: 50px;
      padding: 20px;
      list-style: none;
      transition: ease-in-out all .4s;
-     display: table;
+     display: flex;
    }
 
    li {
@@ -197,6 +206,7 @@ h2 {
    /* below layer 3 */
       #side-menu3 {
         background-color: #AFE3B7;
+        border-radius: 10px;
         color: white;
         width: 80px;
         padding: 20px;
