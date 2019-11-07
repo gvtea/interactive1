@@ -11,6 +11,12 @@ h2 {
   font-weight: 100;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
 .button1 {
   background-color: lightgray;
     border: none;
@@ -97,6 +103,7 @@ h2 {
     cursor: pointer;
 }
 
+/* hover over img */
 #wrapper .text {
    position: relative;
    bottom:30px;
@@ -107,7 +114,8 @@ h2 {
    #wrapper:hover .text {
    visibility: visible;
    }
-/* layer 1 */
+
+/* below layer 1 */
    #side-menu {
      background-color: #AFE3DD;
      color: white;
@@ -118,6 +126,8 @@ h2 {
      display: table;
    }
 
+.img { object-fit: cover;
+}
    li {
      width: 50%;
      height: 100%;
@@ -140,7 +150,7 @@ h2 {
      opacity: 1;
    }
 
-/* layer 2 */
+/* below layer 2 */
    #side-menu2 {
      background-color: #FFCCA7;
      color: white;
@@ -173,7 +183,7 @@ h2 {
      opacity: 1;
    }
 
-   /* layer 3 */
+   /* below layer 3 */
       #side-menu3 {
         background-color: #AFE3B7;
         color: white;
