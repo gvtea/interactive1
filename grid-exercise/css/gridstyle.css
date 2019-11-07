@@ -103,6 +103,19 @@ h2 {
     cursor: pointer;
 }
 
+#some-element {
+  border: 5px solid #ccc;
+  display: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
+
 /* hover over img */
 #wrapper .text {
    position: relative;
@@ -126,8 +139,6 @@ h2 {
      display: table;
    }
 
-.img { object-fit: cover;
-}
    li {
      width: 50%;
      height: 100%;
