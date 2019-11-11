@@ -115,6 +115,14 @@ h2 {
   padding: 5px;
 }
 
+#some-div {
+  background-color: lightyellow;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 #some-div:hover #some-element {
   display: block;
   width: 100px;
@@ -136,7 +144,8 @@ h2 {
    #side-menu {
      background-color: #AFE3DD;
      border-radius: 10px;
-     color: white;
+     font-size: 14px;
+     color: navy;
      width: 80px;
      padding: 20px;
      list-style: none;
@@ -170,7 +179,8 @@ h2 {
    #side-menu2 {
      background-color: #FFCCA7;
      border-radius: 10px;
-     color: white;
+     font-size: 14px;
+     color: navy;
      width: 80px;
      height: 50px;
      padding: 20px;
@@ -205,7 +215,8 @@ h2 {
       #side-menu3 {
         background-color: #AFE3B7;
         border-radius: 10px;
-        color: white;
+        font-size: 14px;
+        color: navy;
         width: 80px;
         padding: 20px;
         list-style: none;
@@ -234,45 +245,3 @@ h2 {
       #side-menu3:hover .side-menu__label {
         opacity: 1;
       }
-
-
-
-
-/*
-.grid-item {
-  background-color: lightblue;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 200px 300px 200px;
-}
- */
-
-
-/* #header {
-  background: orange;
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
-
-#nav {
-  background: yellow;
-  grid-column-start: 2;
-}
-
-#main {
-  background: yellowgreen;
-  grid-column-start: 3;
-}
-
-#aside {
-  background: teal;
-  grid-column-start: 2;
-}
-
-#footer {
-  background: maroon;
-  grid-column-start: 3;
-} */
