@@ -117,7 +117,8 @@ h2 {
 }
 
 #some-div {
-  background-color: lightyellow;
+  background-color: white;
+  border: 5px dotted;
   border-radius: 5px;
   display: inline-block;
   font-size: 14px;
@@ -127,6 +128,7 @@ h2 {
 #some-div:hover #some-element {
   display: flex;
   width: 100px;
+
 }
 
 /* layer2 */
@@ -141,7 +143,8 @@ h2 {
 }
 
 #some-div2 {
-  background-color: lightyellow;
+  background-color: white;
+  border: 5px dotted;
   border-radius: 5px;
   display: inline-block;
   font-size: 14px;
@@ -165,7 +168,8 @@ h2 {
 }
 
 #some-div3 {
-  background-color: lightyellow;
+  background-color: white;
+  border: 5px dotted;
   border-radius: 5px;
   display: inline-block;
   font-size: 14px;
