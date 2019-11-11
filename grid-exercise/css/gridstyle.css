@@ -10,7 +10,7 @@ body {
 
 h2 {
   color: #08085B;
-  font-weight: 100;
+  font-weight: 100px;
 }
 
 .buttons {
@@ -20,7 +20,7 @@ h2 {
 }
 
 .button1 {
-  background-color: lightgray;
+    background-color: lightgray;
     border: none;
     border-radius: 10px;
     color: #08085B;
@@ -34,7 +34,7 @@ h2 {
 }
 
 .button2 {
-  background-color: lightgray;
+    background-color: lightgray;
     border: none;
     border-radius: 10px;
     color: #08085B;
@@ -45,11 +45,10 @@ h2 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-
 }
 
 .button3 {
-  background-color: lightgray;
+    background-color: lightgray;
     border: none;
     border-radius: 10px;
     color: #08085B;
@@ -63,7 +62,7 @@ h2 {
 }
 
 .layer1 {
-  background-color: #AFE3DD;
+    background-color: #AFE3DD;
     border: none;
     border-radius: 10px;
     color: #08085B;
@@ -114,7 +113,6 @@ h2 {
   font-size: 12px;
   margin-top: 10px;
   padding: 5px;
-  text-transform: uppercase;
 }
 
 #some-div:hover #some-element {
@@ -143,7 +141,7 @@ h2 {
      padding: 20px;
      list-style: none;
      transition: ease-in-out all .4s;
-     display: table;
+     display: flex;
    }
 
    li {
