@@ -105,10 +105,11 @@ h2 {
 }
 
 /* popup under descriptions*/
+/* layer 1 */
 #some-element {
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #FFCCA7;
+  background-color: #AFE3DD;
   display: none;
   font-size: 12px;
   margin-top: 10px;
@@ -124,7 +125,55 @@ h2 {
 }
 
 #some-div:hover #some-element {
-  display: block;
+  display: flex;
+  width: 100px;
+}
+
+/* layer2 */
+#some-element2 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #FFCCA7;
+  display: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#some-div2 {
+  background-color: lightyellow;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#some-div2:hover #some-element2 {
+  display: flex;
+  width: 100px;
+}
+
+/* layer3 */
+#some-element3 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #AFE3B7;
+  display: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#some-div3 {
+  background-color: lightyellow;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#some-div3:hover #some-element3 {
+  display: flex;
   width: 100px;
 }
 
