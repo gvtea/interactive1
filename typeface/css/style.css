@@ -1,0 +1,18 @@
+body { background: pink;
+      color: ivory;
+
+}
+
+.container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+}
+
+.A {
+    padding: 20px;
+    transition: ease all;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
