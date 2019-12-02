@@ -1,3 +1,5 @@
+
+
 body { background: pink;
       color: ivory;
 
@@ -15,4 +17,9 @@ body { background: pink;
     width: 300px;
     height: 300px;
     position: relative;
+}
+
+#bowl-A {
+        position: sticky;
+
 }
