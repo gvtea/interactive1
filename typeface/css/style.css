@@ -27,6 +27,19 @@ body { background: lightyellow;
         transform: scale(.05);
 }
 
+@keyframes bowl2 {
+  from {background-color: yellow;}
+  to {background-color: orange;}
+}
+
+.bowl2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: bowl2;
+    animation-duration: 4s;
+}
+
 /* #bowl-A {
         position: absolute;
         padding-left: 30px;
@@ -87,9 +100,9 @@ body { background: lightyellow;
 
 
 .H {
-                padding: 20px;
-                transition: ease all;
-                width: 300px;
-                height: 300px;
-                position: relative;
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
             }
