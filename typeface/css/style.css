@@ -19,7 +19,74 @@ body { background: pink;
     position: relative;
 }
 
-#bowl-A {
-        position: sticky;
-
+.A:hover .bowl2 {
+        transition: all 200ms ease;
+        transform: scale(.05);
 }
+
+/* #bowl-A {
+        position: absolute;
+        padding-left: 30px;
+}
+
+#counter-A {
+            position: absolute;
+            padding-left: 30px;
+} */
+
+.B {
+    padding: 20px;
+    transition: ease all;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.C {
+    padding: 20px;
+    transition: ease all;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.D {
+    padding: 20px;
+    transition: ease all;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.E {
+      padding: 20px;
+      transition: ease all;
+      width: 300px;
+      height: 300px;
+      position: relative;
+  }
+
+.F {
+        padding: 20px;
+        transition: ease all;
+        width: 300px;
+        height: 300px;
+        position: relative;
+    }
+
+.G {
+          padding: 20px;
+          transition: ease all;
+          width: 300px;
+          height: 300px;
+          position: relative;
+      }
+
+
+.H {
+                padding: 20px;
+                transition: ease all;
+                width: 300px;
+                height: 300px;
+                position: relative;
+            }
