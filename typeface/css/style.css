@@ -5,81 +5,112 @@ body { background: lightyellow;
 
 }
 
-.container {
-            display: flex;
-            flex-wrap: wrap;
-            margin: auto;
+
+.ScrollStyle
+{
+    position: fixed;
+    max-height: 100vh;
+    overflow-y: scroll;
+
 }
 
-.A {
-    padding: 20px;
-    background-color: yellow;
-    transition: ease all;
-    width: 300px;
-    height: 300px;
+.letter {
     position: relative;
+    margin: 10vw;
+    display: grid;
+  }
+
+/* letters */
+
+/* letter A */
+
+.A-bowl {
+  width: 60vw;
+  height: 60vh;
+  background-color: yellow;
+  position: fixed;
 }
 
-#bowl2 {
-  width: 100px;
-  height: 100px;
-  background: black;
-  top: 100px;
-  left: 20px;
+.A-stem {
+    width: 30vw;
+    height: 90vh;
+    background-color: green;
+    position: fixed;
 }
 
-.A:hover .bowl2 {
-        border-radius: 100px;
-        background: radial-gradient(#fff 10% ,#fff 60%);
-        transition: all 200ms ease;
-        transform: scale(.05);
-}
-/*
-@keyframes bowl2 {
-  from {background-color: yellow;}
-  to {background-color: orange;}
+.A-circle {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
 }
 
-.bowl2 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: bowl2;
-    animation-duration: 4s;
-} */
+/* letter B */
 
-/* #bowl-A {
-        position: absolute;
-        padding-left: 30px;
+.B-bowl {
+  width: 60vw;
+  height: 60vh;
+  background-color: lightgreen;
+  position: fixed;
 }
 
-#counter-A {
-            position: absolute;
-            padding-left: 30px;
-} */
-
-.B {
-    padding: 20px;
-    transition: ease all;
-    width: 300px;
-    height: 300px;
-    position: relative;
+.B-stem {
+    width: 30vw;
+    height: 90vh;
+    background-color: black;
+    position: fixed;
 }
+
+.B-circle {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+}
+
+/* letter C */
 
 .C {
-    padding: 20px;
-    transition: ease all;
-    width: 300px;
-    height: 300px;
-    position: relative;
+      width: 30vw;
+      height: 30vh;
+      background-color: pink;
 }
 
-.D {
-    padding: 20px;
-    transition: ease all;
-    width: 300px;
-    height: 300px;
-    position: relative;
+.C-circle {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+}
+
+
+/* letter D */
+
+.D-bowl {
+  width: 60vw;
+  height: 60vh;
+  background-color: gray;
+  position: fixed;
+
+}
+.D-stem {
+  width: 30vw;
+  height: 90vh;
+  background-color: white;
+  position: fixed;
+
+}
+
+.D-circle {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+
 }
 
 .E {
