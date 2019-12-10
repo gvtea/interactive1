@@ -5,45 +5,52 @@ body { background: lightyellow;
 
 }
 
+.container {
 
-.ScrollStyle
-{
-    position: fixed;
-    max-height: 100vh;
-    overflow-y: scroll;
+  position: relative;
+  width: 20%;
+  margin: 10vw;
+  display: grid;
+  float: left;
 
 }
 
 .letter {
     position: relative;
-    margin: 10vw;
-    display: grid;
+    float: left;
   }
+
+  /* #A { width: 100%;
+     min-height: 100vh;
+     background-color: white;
+   }
+
+       #B, #C, #D, #E, #F, #G, #H, #I,
+       #J, #K, #L, #M, #N, #O, #P, #Q,
+       #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
+         float: left;
+         display: inline;
+         width: 50%;
+       } */
 
 /* letters */
 
 /* letter A */
 
 .A-bowl {
-  width: 60vw;
-  height: 60vh;
-  background-color: yellow;
-  position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #FFE783;
+    display: flex;
+    position: relative;
 }
 
 .A-stem {
-    width: 30vw;
-    height: 90vh;
-    background-color: green;
-    position: fixed;
-}
-
-.A-circle {
-  height: 50px;
-  width: 50px;
+  height: 5vw;
+  width: 10vh;
   background-color: white;
   border-radius: 50%;
-  position: fixed;
+  position: relative;
 }
 
 /* letter B */
@@ -55,21 +62,6 @@ body { background: lightyellow;
   position: fixed;
 }
 
-.B-stem {
-    width: 30vw;
-    height: 90vh;
-    background-color: black;
-    position: fixed;
-}
-
-.B-circle {
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border-radius: 50%;
-  position: fixed;
-}
-
 /* letter C */
 
 .C {
@@ -78,28 +70,12 @@ body { background: lightyellow;
       background-color: pink;
 }
 
-.C-circle {
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border-radius: 50%;
-  position: fixed;
-}
-
-
 /* letter D */
 
 .D-bowl {
   width: 60vw;
   height: 60vh;
   background-color: gray;
-  position: fixed;
-
-}
-.D-stem {
-  width: 30vw;
-  height: 90vh;
-  background-color: white;
   position: fixed;
 
 }
@@ -113,35 +89,224 @@ body { background: lightyellow;
 
 }
 
-.E {
-      padding: 20px;
-      transition: ease all;
-      width: 300px;
-      height: 300px;
-      position: relative;
-  }
+/* letter E */
+.E-square {
+              padding: 20px;
 
-.F {
-        padding: 20px;
-        transition: ease all;
-        width: 300px;
-        height: 300px;
-        position: relative;
-    }
+}
 
-.G {
+/* letter F */
+
+.F-stem {
+            padding: 20px;
+
+}
+
+.F-top {
+            padding: 20px;
+}
+
+/* letter G */
+
+.G-bowl {
           padding: 20px;
-          transition: ease all;
           width: 300px;
           height: 300px;
           position: relative;
       }
 
+.G-tail {
+            padding: 20px;
 
-.H {
+}
+
+/* letter H */
+
+.H-bowl {
+            padding: 20px;
+            width: 300px;
+            height: 300px;
+            position: relative;
+
+}
+
+/* letter I */
+
+.I-stem {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+    }
+
+/* letter J */
+
+.J-tail {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+
+/* letter K */
+
+.K-square {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+      }
+.K-stem {
+            padding:
+}
+/* letter L */
+
+.L-stem {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+      }
+
+/* letter M */
+.M-square {
             padding: 20px;
             transition: ease all;
             width: 300px;
             height: 300px;
             position: relative;
             }
+
+/* letter N */
+.N-stem {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+    }
+
+.N-square {
+            padding: 20px;
+
+}
+
+/* letter O */
+
+.O {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+          }
+
+/* letter P */
+
+.P {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+           }
+
+/* letter Q */
+
+.Q {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                 }
+
+/* letter R */
+
+.R {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+           }
+
+/* letter S */
+
+.S {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+          }
+
+/* letter T */
+
+.T {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                    }
+/* letter U */
+
+.U {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                      }
+
+/* letter V */
+
+.V {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                      }
+
+/* letter W */
+.W {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                      }
+
+/* letter X */
+
+.X {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                      }
+
+/* letter Y */
+.Y {
+            padding: 20px;
+            transition: ease all;
+            width: 300px;
+            height: 300px;
+            position: relative;
+                      }
+
+/* letter Z */
+.Z-square {
+             padding: 20px;
+             transition: ease all;
+             width: 300px;
+             height: 300px;
+             position: relative;
+                      }
