@@ -1,312 +1,279 @@
 
 
-body { background: lightyellow;
-      color: ivory;
-
+body {  background: #FFDA88;
+          padding-top: 30px;
+          padding-bottom: : 60px;
+          padding-left: 60px;
+          padding-right: 60px;
 }
 
-.container {
-
-  position: relative;
-  width: 20%;
-  margin: 10vw;
-  display: grid;
-  float: left;
-
-}
+/* grid */
 
 .letter {
+    display: grid;
     position: relative;
-    float: left;
   }
 
-  /* #A { width: 100%;
-     min-height: 100vh;
-     background-color: white;
-   }
+.title {
+    position: relative;
+  	padding: 30px;
 
-       #B, #C, #D, #E, #F, #G, #H, #I,
-       #J, #K, #L, #M, #N, #O, #P, #Q,
-       #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
-         float: left;
-         display: inline;
-         width: 50%;
-       } */
+  	display: grid;
+  	float: left;
+  }
 
+#wrapper {
+          margin-left:auto;
+          margin-right:auto;
+          width: 100%;
+}
 /* letters */
 
 /* letter A */
 
-.A-bowl {
-    width: 100%;
-    height: 100%;
-    background-color: #FFE783;
-    display: flex;
-    position: relative;
-}
+#A {
+    display: inline-grid;
+    padding: 5vh;
+  }
 
-.A-stem {
-  height: 5vw;
-  width: 10vh;
-  background-color: white;
-  border-radius: 50%;
-  position: relative;
-}
+.A-bowl {
+          height: 5em;
+          width: 5em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+
+#A-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+        }
 
 /* letter B */
 
+#B {
+      display: inline-grid;
+      padding: 5vh;
+}
+
 .B-bowl {
-  width: 60vw;
-  height: 60vh;
-  background-color: lightgreen;
-  position: fixed;
+          height: 5em;
+          width: 5em;
+          background-color: beige;
+          border-radius: 10%;
+}
+
+#B-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-right: 2em;
+          padding-bottom: 2em;
+          float: right;
 }
 
 /* letter C */
 
-.C {
-      width: 30vw;
-      height: 30vh;
-      background-color: pink;
+#C {
+      display: inline-grid;
+      padding: 5vh;
+}
+
+.C-bowl {
+          height: 5em;
+          width: 5em;
+          background-color: beige;
+          border-radius: 10%;
 }
 
 /* letter D */
 
-.D-bowl {
-  width: 60vw;
-  height: 60vh;
-  background-color: gray;
-  position: fixed;
-
+#D {
+      display: inline-grid;
+      padding: 5vh;
 }
 
-.D-circle {
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border-radius: 50%;
-  position: fixed;
+.D-bowl {
+          height: 5em;
+          width: 5em;
+          background-color: brown;
+          border-radius: 10%;
+}
 
+#D-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
 }
 
 /* letter E */
-.E-square {
-              padding: 20px;
 
+#E {
+      display: inline-grid;
+      padding: 5vh;
+}
+
+.E-bowl {
+          height: 5em;
+          width: 5em;
+          background-color: brown;
+          border-radius: 10%;
+}
+
+#E-circle {
+            width: 5em;
+            border-radius: 100%;
+            position: sticky;
+            background-color: inherit;
 }
 
 /* letter F */
 
-.F-stem {
-            padding: 20px;
-
+#F {
+      display: inline-grid;
+      padding: 5vh;
 }
 
-.F-top {
-            padding: 20px;
-}
+.F-arms {
+          height: 5em;
+          width: 5em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+
+#F-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+        }
 
 /* letter G */
 
+#G {
+      display: inline-grid;
+      padding: 5vh;
+}
+
 .G-bowl {
-          padding: 20px;
-          width: 300px;
-          height: 300px;
-          position: relative;
-      }
+          height: 5em;
+          width: 5em;
+          background-color: beige;
+          border-radius: 10%;
 
-.G-tail {
-            padding: 20px;
+        }
 
+#G-tail1 {
+
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+}
+
+#G-tail2 {
+
+        height: 5vw;
+        width: 10vh;
+        background-color: black;
+        position: relative;
+        padding-left: 2vw;
+        padding-bottom: 2vh;
 }
 
 /* letter H */
 
-.H-bowl {
-            padding: 20px;
-            width: 300px;
-            height: 300px;
-            position: relative;
-
+#H {
+      display: inline-grid;
+      padding: 5vh;
 }
+
+.H-bowl {
+            height: 5em;
+            width: 5em;
+            background-color: beige;
+            border-radius: 10%;
+
+
+        }
+
+#H-stem {
+
+            height: 3em;
+            width: 1em;
+            border: solid 5px #D88850;
+            border-radius: 10%;
+            position: absolute;
+            transform: rotateZ(180deg);
+            padding-left: 2em;
+            padding-bottom: 2em;
 
 /* letter I */
 
-.I-stem {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
+#I {
+        display: inline-grid;
+        padding: 5vh;
     }
 
-/* letter J */
+.I-stem {
+          height: 5em;
+          width: 5em;
+          position: absolute;
+          border-radius: 10%;
+}
 
-.J-tail {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
+#I-dot {
+          height: 1em;
+          width: 1em;
+          position: absolute;
         }
 
-/* letter K */
-
-.K-square {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-      }
-.K-stem {
-            padding:
+/* letter J */
+#J      {
+          display: inline-grid;
+          padding: 5vh;
 }
-/* letter L */
 
-.L-stem {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-      }
-
-/* letter M */
-.M-square {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-            }
-
-/* letter N */
-.N-stem {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-    }
-
-.N-square {
-            padding: 20px;
+.J-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
 
 }
 
-/* letter O */
+#J-tail  {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
 
-.O {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-          }
-
-/* letter P */
-
-.P {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-           }
-
-/* letter Q */
-
-.Q {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                 }
-
-/* letter R */
-
-.R {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-           }
-
-/* letter S */
-
-.S {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-          }
-
-/* letter T */
-
-.T {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                    }
-/* letter U */
-
-.U {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                      }
-
-/* letter V */
-
-.V {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                      }
-
-/* letter W */
-.W {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                      }
-
-/* letter X */
-
-.X {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                      }
-
-/* letter Y */
-.Y {
-            padding: 20px;
-            transition: ease all;
-            width: 300px;
-            height: 300px;
-            position: relative;
-                      }
-
-/* letter Z */
-.Z-square {
-             padding: 20px;
-             transition: ease all;
-             width: 300px;
-             height: 300px;
-             position: relative;
-                      }
+}
