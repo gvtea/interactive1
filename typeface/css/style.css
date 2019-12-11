@@ -1,10 +1,10 @@
 
 
 body {  background: #FFDA88;
-          padding-top: 30px;
-          padding-bottom: : 60px;
-          padding-left: 60px;
-          padding-right: 60px;
+          padding-top: 3em;
+          padding-bottom: 3em;
+          padding-left: 5em;
+          padding-right: 5em;
 }
 
 /* grid */
@@ -12,14 +12,6 @@ body {  background: #FFDA88;
 .letter {
     display: grid;
     position: relative;
-  }
-
-.title {
-    position: relative;
-  	padding: 30px;
-
-  	display: grid;
-  	float: left;
   }
 
 #wrapper {
@@ -53,6 +45,8 @@ body {  background: #FFDA88;
           transform: rotateZ(180deg);
           padding-left: 2em;
           padding-bottom: 2em;
+          float: right;
+
         }
 
 /* letter B */
@@ -93,6 +87,14 @@ body {  background: #FFDA88;
           width: 5em;
           background-color: beige;
           border-radius: 10%;
+}
+
+.dot {
+        height: 3em;
+        width: 3em;
+        background-color: white;
+        border-radius: 50%;
+        display: absolute;
 }
 
 /* letter D */
@@ -234,10 +236,6 @@ body {  background: #FFDA88;
 
 /* letter I */
 
-#I {
-        display: inline-grid;
-        padding: 5vh;
-    }
 
 .I-stem {
           height: 5em;
@@ -277,3 +275,205 @@ body {  background: #FFDA88;
           border-radius: 10%;
 
 }
+
+/* letter K */
+
+#K      {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.K-arms {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#K-arms {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+}
+
+/* letter L */
+
+#L      {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.L-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#L-leg {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+
+/* letter M */
+
+#M     {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.M-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#M-stem {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+/* letter N */
+
+#N     {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.N-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#N-stem {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+
+/* letter O */
+
+#O     {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.O-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+/* letter P */
+
+#P     {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.P-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#P-stem {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+
+/* letter Q */
+
+#P     {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.Q-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#Q-stem {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
+
+/* letter R */
+
+.R-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#R-stem {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+        }
