@@ -1,10 +1,10 @@
 
 
 body {  background: #FFDA88;
-          padding-top: 3em;
-          padding-bottom: 3em;
-          padding-left: 5em;
-          padding-right: 5em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        padding-left: 5em;
+        padding-right: 5em;
 }
 
 /* grid */
@@ -14,18 +14,22 @@ body {  background: #FFDA88;
     position: relative;
   }
 
-#wrapper {
-          margin-left:auto;
-          margin-right:auto;
-          width: 100%;
-}
+  @keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+.title {
+          margin-bottom: 10em;
+          width: inherit;
+  }
 /* letters */
 
 /* letter A */
 
 #A {
     display: inline-grid;
-    padding: 5vh;
+    padding: 12vh;
   }
 
 .A-bowl {
@@ -33,21 +37,35 @@ body {  background: #FFDA88;
           width: 5em;
           background-color: beige;
           border-radius: 10%;
-
         }
 
 #A-stem {
-          height: 3em;
-          width: 1em;
-          border: solid 5px #D88850;
+          height: 2em;
+          width: 0em;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
-          padding-left: 2em;
+          padding-left: 1em;
           padding-bottom: 2em;
-          float: right;
+          margin-left: 9em;
+          margin-top: 4.5em;
 
         }
+
+#A-circle {
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: 5.7em;
+            margin-top: 5.7em;
+                    }
+
 
 /* letter B */
 
@@ -64,16 +82,30 @@ body {  background: #FFDA88;
 }
 
 #B-stem {
-          height: 3em;
-          width: 1em;
-          border: solid 5px #D88850;
+          height: 4em;
+          width: 0em;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
-          padding-right: 2em;
+          padding-right: 1em;
           padding-bottom: 2em;
-          float: right;
+          margin-right: 10em;
+
 }
+
+#B-circle {
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: -3.8em;
+            margin-top: 1.3em;
+                    }
 
 /* letter C */
 
@@ -89,13 +121,11 @@ body {  background: #FFDA88;
           border-radius: 10%;
 }
 
-.dot {
-        height: 3em;
-        width: 3em;
-        background-color: white;
-        border-radius: 50%;
-        display: absolute;
-}
+img  {
+        width: 13em;
+        height: 9em;
+        position: absolute;
+      }
 
 /* letter D */
 
@@ -107,20 +137,34 @@ body {  background: #FFDA88;
 .D-bowl {
           height: 5em;
           width: 5em;
-          background-color: brown;
+          background-color: beige;
           border-radius: 10%;
 }
 
 #D-stem {
-          height: 3em;
-          width: 1em;
-          border: solid 5px #D88850;
+          height: 4em;
+          width: 0em;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
-          padding-left: 2em;
-          padding-bottom: 2em;
+          padding-left: 1em;
+          padding-bottom: 1.5em;
+          margin-left: 6.3em;
 }
+
+#D-circle {
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: 3em;
+            margin-top: 3em;
+            }
 
 /* letter E */
 
@@ -132,43 +176,66 @@ body {  background: #FFDA88;
 .E-bowl {
           height: 5em;
           width: 5em;
-          background-color: brown;
+          background-color: beige;
           border-radius: 10%;
 }
 
 #E-circle {
-            width: 5em;
-            border-radius: 100%;
-            position: sticky;
-            background-color: inherit;
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: 2.5em;
+            margin-top: 2.5em;
+            }
+
+img {
+          width: 13em;
+          height: 9em;
+          position: absolute;
 }
+
 
 /* letter F */
 
 #F {
       display: inline-grid;
-      padding: 5vh;
+      padding: 12vh;
 }
 
 .F-arms {
           height: 5em;
           width: 5em;
+          position: absolute;
           background-color: beige;
           border-radius: 10%;
+          margin-bottom: -5em;
 
         }
 
 #F-stem {
-          height: 3em;
-          width: 1em;
-          border: solid 5px #D88850;
+          height: 4.5em;
+          width: 0em;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
-          padding-left: 2em;
-          padding-bottom: 2em;
+          padding-left: 1em;
+          padding-bottom: 1em;
+          margin-right: 2em;
+        }
+
+img {
+          width: 13em;
+          height: 9em;
+          position: absolute;
 
         }
+
 
 /* letter G */
 
@@ -187,67 +254,102 @@ body {  background: #FFDA88;
 
 #G-tail1 {
 
-          height: 3em;
+          height: 2.5em;
           width: 1em;
-          border: solid 5px #D88850;
-          border-radius: 10%;
+          border: solid 10px #D88850;
+          border-radius: 40%;
           position: absolute;
           transform: rotateZ(180deg);
-          padding-left: 2em;
-          padding-bottom: 2em;
+          margin-left: 4.7em;
+          margin-top: 6em;
 }
 
 #G-tail2 {
 
-        height: 5vw;
-        width: 10vh;
-        background-color: black;
+        height: 3em;
+        width: 1em;
+        background-color: beige;
         position: relative;
-        padding-left: 2vw;
-        padding-bottom: 2vh;
+        transform: rotateZ(90deg);
+        border-radius: 10%;
+        padding-left: 3vh;
+        padding-bottom: 3vh;
+        margin-left: 1em;
+        margin-right: 1em;
+
 }
+
+#G-circle {
+      height: 0em;
+      width: 0em;
+      border: solid 10px #D88850;
+      border-radius: 40%;
+      background-color: #FFDA88;
+      position: absolute;
+      padding-left: 1em;
+      padding-bottom: 1em;
+      margin-left: 3em;
+      margin-top: 2.5em;
+
+          }
 
 /* letter H */
 
 #H {
       display: inline-grid;
       padding: 5vh;
-}
+    }
 
 .H-bowl {
             height: 5em;
             width: 5em;
             background-color: beige;
             border-radius: 10%;
-
+            transform: rotateZ(90deg);
 
         }
 
 #H-stem {
 
-            height: 3em;
-            width: 1em;
-            border: solid 5px #D88850;
+            height: 4em;
+            width: 0em;
+            border: solid 10px #D88850;
             border-radius: 10%;
             position: absolute;
             transform: rotateZ(180deg);
             padding-left: 2em;
             padding-bottom: 2em;
 
+        }
+
 /* letter I */
 
+#I {
+      display: inline-grid;
+      padding: 5vh;
+}
 
 .I-stem {
-          height: 5em;
-          width: 5em;
-          position: absolute;
-          border-radius: 10%;
+            height: 5em;
+            width: 5em;
+            background-color: beige;
+            border-radius: 10%;
+
 }
 
 #I-dot {
-          height: 1em;
-          width: 1em;
-          position: absolute;
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: 3.3em;
+
+            margin-bottom: 30em;
+
         }
 
 /* letter J */
@@ -257,24 +359,48 @@ body {  background: #FFDA88;
 }
 
 .J-stem {
+
           height: 3em;
           width: 1em;
-          border: solid 5px #D88850;
+          background-color: beige;
+          position: relative;
           border-radius: 10%;
-          position: absolute;
-          transform: rotateZ(180deg);
-          padding-left: 2em;
-          padding-bottom: 2em;
+          padding-left: 3vh;
+          padding-bottom: 3vh;
+          margin-left: 1em;
+          margin-right: 1em;
+
 
 }
 
 #J-tail  {
-          height: 5em;
-          width: 6em;
+          height: 3em;
+          width: 1em;
           background-color: beige;
+          position: relative;
+          transform: rotateZ(90deg);
           border-radius: 10%;
+          padding-left: 3vh;
+          padding-bottom: 3vh;
+          margin-right: 3em;
+          margin-bottom: 3em;
 
 }
+
+#J-dot {
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: 2.8em;
+            margin-bottom: 8em;
+
+        }
+
 
 /* letter K */
 
@@ -284,22 +410,24 @@ body {  background: #FFDA88;
 }
 
 .K-arms {
-          height: 3em;
+  height: 5em;
+  width: 5em;
+  background-color: beige;
+  border-radius: 10%;
+  transform: rotateZ(90deg);
+}
+
+#K-stem {
+          height: 4em;
           width: 1em;
-          border: solid 5px #D88850;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
           padding-left: 2em;
           padding-bottom: 2em;
-
-}
-
-#K-arms {
-          height: 5em;
-          width: 6em;
-          background-color: beige;
-          border-radius: 10%;
+          margin-bottom: 1em;
+          margin-right: 3em;
 
 }
 
@@ -307,24 +435,12 @@ body {  background: #FFDA88;
 
 #L      {
           display: inline-grid;
-          padding: 5vh;
-}
+          padding: 12vh;
+        }
 
 .L-stem {
-          height: 3em;
-          width: 1em;
-          border: solid 5px #D88850;
-          border-radius: 10%;
-          position: absolute;
-          transform: rotateZ(180deg);
-          padding-left: 2em;
-          padding-bottom: 2em;
-
-}
-
-#L-leg {
-          height: 5em;
-          width: 6em;
+          height: 7em;
+          width: 5em;
           background-color: beige;
           border-radius: 10%;
 
@@ -335,12 +451,12 @@ body {  background: #FFDA88;
 #M     {
           display: inline-grid;
           padding: 5vh;
-}
+        }
 
 .M-bowl {
           height: 3em;
           width: 1em;
-          border: solid 5px #D88850;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
@@ -366,7 +482,7 @@ body {  background: #FFDA88;
 .N-bowl {
           height: 3em;
           width: 1em;
-          border: solid 5px #D88850;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
@@ -391,28 +507,37 @@ body {  background: #FFDA88;
 }
 
 .O-bowl {
-          height: 3em;
-          width: 1em;
-          border: solid 5px #D88850;
+          height: 5em;
+          width: 5em;
+          background-color: beige;
           border-radius: 10%;
-          position: absolute;
-          transform: rotateZ(180deg);
-          padding-left: 2em;
-          padding-bottom: 2em;
 
 }
+
+#O-circle {
+            height: 0em;
+            width: 0em;
+            border: solid 10px #D88850;
+            border-radius: 40%;
+            background-color: #FFDA88;
+            position: absolute;
+            padding-left: 1em;
+            padding-bottom: 1em;
+            margin-left: 3.3em;
+            margin-top: 3em;
+                    }
 
 /* letter P */
 
 #P     {
           display: inline-grid;
-          padding: 5vh;
+          padding: 10vh;
 }
 
 .P-bowl {
           height: 3em;
           width: 1em;
-          border: solid 5px #D88850;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
@@ -422,8 +547,8 @@ body {  background: #FFDA88;
 }
 
 #P-stem {
-          height: 5em;
-          width: 6em;
+          height: 4em;
+          width: 0em;
           background-color: beige;
           border-radius: 10%;
 
@@ -431,7 +556,7 @@ body {  background: #FFDA88;
 
 /* letter Q */
 
-#P     {
+#Q     {
           display: inline-grid;
           padding: 5vh;
 }
@@ -439,7 +564,7 @@ body {  background: #FFDA88;
 .Q-bowl {
           height: 3em;
           width: 1em;
-          border: solid 5px #D88850;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
@@ -458,10 +583,15 @@ body {  background: #FFDA88;
 
 /* letter R */
 
+#R     {
+          display: inline-grid;
+          padding: 5vh;
+}
+
 .R-bowl {
           height: 3em;
           width: 1em;
-          border: solid 5px #D88850;
+          border: solid 10px #D88850;
           border-radius: 10%;
           position: absolute;
           transform: rotateZ(180deg);
@@ -477,3 +607,205 @@ body {  background: #FFDA88;
           border-radius: 10%;
 
         }
+
+/* letter S */
+
+#S    {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.S-bowl {
+          height: 3em;
+          width: 1em;
+          border: solid 10px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+/* letter T */
+
+#T   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.T-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 10px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#T-counter {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+        }
+
+/* letter U */
+
+#U   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.U-bowl {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+}
+
+/* letter V */
+
+#V   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.V-bowl {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+}
+
+/* letter W */
+
+#W   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.W-bowl {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+}
+
+/* letter X */
+
+#X   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.X-bowl {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+
+}
+
+/* letter Y */
+
+#Y   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.Y-bowl {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+          position: relative;
+
+}
+
+.Y-stem {
+          height: 3em;
+          width: 1em;
+          border: solid 5px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+#Y-tail {
+          height: 3em;
+          width: 1em;
+          border: solid 10px #D88850;
+          border-radius: 10%;
+          position: absolute;
+          transform: rotateZ(180deg);
+          padding-left: 2em;
+          padding-bottom: 2em;
+
+}
+
+/* letter Z */
+
+#Z   {
+          display: inline-grid;
+          padding: 5vh;
+}
+
+.Z-bowl {
+          height: 5em;
+          width: 6em;
+          background-color: beige;
+          border-radius: 10%;
+          position: relative;
+
+}
+
+/* numbers  */
+
+.circle {
+          height: 5em;
+          width: 5em;
+          border: solid 10px #D88850;
+          background-color: beige;
+          border-radius: 40%;
+}
+
+.rectangle {
+          height: 6em;
+          width: 4em;
+          border: solid 10px #D88850;
+          background-color: beige;
+          border-radius: 10%;
+          position: relative;
+          margin-left: 10em;
+}
+
+.circle2 {
+          height: 3em;
+          width: 3em;
+          border: solid 10px #D88850;
+          background-color: beige;
+          border-radius: 40%;
+          margin-left: 20em;
+          }
+
+
+.rectangle2 {
+          height: 6em;
+          width: 4em;
+          border: solid 10px #D88850;
+          background-color: beige;
+          border-radius: 10%;
+          position: relative;
+          margin-left: 23em;
+          padding-bottom: -3em;
+          }
