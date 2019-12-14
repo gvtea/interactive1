@@ -40,6 +40,7 @@ body {  background: #FFDA88;
   animation-name: unset;
 } */
 
+
 div {
   width: 5em;
   height: 3em;
@@ -63,10 +64,6 @@ div:hover {
     position: relative;
   }
 
-.title {
-          width: 20em;
-          height: 20em;
-  }
 /* letters */
 
 /* letter A */
