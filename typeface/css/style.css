@@ -24,7 +24,7 @@ body {  background: #FFDA88;
 
 /* animation */
 
-@keyframes pulse {
+/* @keyframes pulse {
   from { transform: scale(1); }
   30% { transform: scale(0.85); }
   to { transform: scale(1); }
@@ -36,8 +36,24 @@ body {  background: #FFDA88;
   animation-iteration-count: infinite;
 }
 .fe-pulse-w-pause:hover,
-.fe-pulse-w-pause:focus {
+.fe-pulse-w-pause:dir(left) {
   animation-name: unset;
+} */
+
+div {
+  width: 5em;
+  height: 3em;
+  background: #FFDA88;
+  -webkit-transition: width 2s, height 2s,
+  -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 4em;
+  height: 5em;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
 }
 
 /* grid */
@@ -495,9 +511,9 @@ img {
 
 .N-bowl {
           margin-bottom: 1em;
-          margin-left: -1em;
+          margin-left: -5em;
           margin-top: -8em;
-          padding-right: 8em;
+          padding-right: 6em;
           padding-left: 2em;
 
 }
@@ -621,9 +637,9 @@ img {
           height: 0em;
           width: 0em;
           padding-left: 3em;
-          margin-left: -4.3em;
+          margin-left: -4.5em;
           margin-right: 6em;
-
+          margin-bottom: -5em;
 }
 
 /* letter S */
@@ -636,6 +652,7 @@ img {
 .S-bowl {
           height: 0em;
           width: 0em;
+          position: sticky;
           padding-left: 3em;
           margin-left: 3em;
           margin-right: 6em;
@@ -651,7 +668,7 @@ img {
 
 .T-stem {
           height: 7em;
-          width: 3.5em;
+          width: 2em;
           padding-left: 2em;
           padding-bottom: 2em;
           background-color: beige;
@@ -668,7 +685,7 @@ img {
           background-color: beige;
           border-radius: 10%;
           margin-left: 24em;
-          margin-top: -8em;
+          margin-top: -5em;
           position: absolute;
         }
 
@@ -797,9 +814,15 @@ img {
 
 }
 
-/* numbers  */
+/* punctuation  */
 
-/* .circle {
+.dot {
+        height: 1.5em;
+        weight: 1.5em;
+        border: solid 10px #D88850;
+
+}
+.circle {
           height: 5em;
           width: 5em;
           border: solid 10px #D88850;
@@ -807,6 +830,8 @@ img {
           border-radius: 40%;
 }
 
+
+/*
 .rectangle {
           height: 6em;
           width: 4em;
